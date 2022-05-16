@@ -1,4 +1,4 @@
-
+/*1*/
 
 const gretting = function (value) {
    if (value == 'Mark' && typeof (value) === 'string') {
@@ -45,7 +45,7 @@ console.log(hypotenuse(4, 3));
 
 
 
-function deleteChars() {
+function deleteChar() {
    let str = 'Hello';
    str = str.slice(1);
    console.log(str);
@@ -54,7 +54,7 @@ function deleteChars() {
    letter = letter.slice(1);
    console.log(letter);
 }
-deleteChars()
+deleteChar()
 
 
 
